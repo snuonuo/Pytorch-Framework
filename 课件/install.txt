@@ -1,0 +1,36 @@
+1. annaconda : https://www.anaconda.com/distribution/#download-section
+
+conda
+# 中科大
+# 设置搜索时显示通道地址
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
+conda config --set show_channel_urls yes
+
+# 清华
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+
+#pip 清华
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
+
+C:\Users\xx\pip，新建文件pip.ini
+ [global]
+ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+
+2. pycharm :https://www.jetbrains.com/pycharm/ 
+激活：https://shimo.im/docs/GJTqgHqh6kGYkKKY/read
+
+3. cuda:baidu: cuda download 
+C:\Users\yts32\AppData\Local\Temp\CUDA
+
+算力：https://developer.nvidia.com/cuda-gpus#collapseOne
+
+4. cudnn:https://developer.nvidia.com/cudnn
+
+5. pytorch: https://pytorch.org/	https://download.pytorch.org/whl/torch_stable.html
